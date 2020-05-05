@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App {
+  max-width: 1100px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.board{
+  flex: 1;
+  padding: 15px
+}
+.board-children {
+  border: 1px solid #ededed;
+  padding: 30px;
+  border-radius: 3px;
+}
+.task h4{
+  margin: 0;
+  margin-bottom: 2px;
+}
+.task {
+  background-color: gainsboro;
+  padding: 10px 20px;
+  color: brown;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.task:hover{
+  cursor: move;
+}
+.task:last-child {
+  margin-bottom:0;
+}
